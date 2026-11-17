@@ -1,0 +1,8 @@
+{
+  "source": "sample-14",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "14-A", "label": "大学资助机会样例甲", "state": "active", "revision": 1},
+    {"id": "14-B", "label": "大学资助机会样例乙", "state": "pending", "revision": 1}
+  ]
+}
