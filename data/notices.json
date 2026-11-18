@@ -1,0 +1,32 @@
+{
+  "notices": [
+    {
+      "id": "SUP-2026-01",
+      "revision": 1,
+      "issuedAt": "2026-11-17T12:00:00.000Z",
+      "effectiveFrom": "2026-11-18",
+      "reference": { "agency": "国家科学基金", "externalId": "NSF-YIP-2026" },
+      "changes": {
+        "deadline": "2026-12-15",
+        "eligibility": {
+          "careerStage": ["early", "mid"],
+          "discipline": ["化学", "物理", "生物"]
+        }
+      },
+      "note": "扩大申请人范围并提前截止日期；原页面未同步更新。"
+    },
+    {
+      "id": "SUP-2026-02",
+      "revision": 1,
+      "issuedAt": "2026-11-17T15:00:00.000Z",
+      "effectiveFrom": "2026-11-18",
+      "reference": { "source": "sample-14", "id": "14-B" },
+      "changes": {
+        "eligibility": {
+          "discipline": ["生物", "医学"]
+        }
+      },
+      "note": "限定为生物医学方向。"
+    }
+  ]
+}

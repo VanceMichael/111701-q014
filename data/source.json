@@ -2,7 +2,44 @@
   "source": "sample-14",
   "observedAt": "2026-11-17T08:00:00.000Z",
   "items": [
-    {"id": "14-A", "label": "大学资助机会样例甲", "state": "active", "revision": 1},
-    {"id": "14-B", "label": "大学资助机会样例乙", "state": "pending", "revision": 1}
+    {
+      "id": "14-A",
+      "label": "青年研究者启动基金",
+      "state": "active",
+      "revision": 1,
+      "agency": "国家科学基金",
+      "externalIds": { "国家科学基金": "NSF-YIP-2026" },
+      "deadline": "2027-01-15",
+      "eligibility": {
+        "careerStage": ["early"],
+        "discipline": ["化学", "物理"]
+      }
+    },
+    {
+      "id": "14-B",
+      "label": "跨学科合作基金",
+      "state": "active",
+      "revision": 1,
+      "agency": "大学研究办公室",
+      "externalIds": { "大学研究办公室": "URO-CROSS-2026" },
+      "deadline": "2027-02-28",
+      "eligibility": {
+        "careerStage": ["early", "mid"],
+        "discipline": null
+      }
+    },
+    {
+      "id": "14-C",
+      "label": "教学创新小额资助",
+      "state": "pending",
+      "revision": 1,
+      "agency": "大学研究办公室",
+      "externalIds": { "大学研究办公室": "URO-TEACH-2026" },
+      "deadline": null,
+      "eligibility": {
+        "careerStage": null,
+        "discipline": ["教育学"]
+      }
+    }
   ]
 }
